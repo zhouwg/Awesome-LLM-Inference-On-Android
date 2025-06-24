@@ -30,6 +30,7 @@ Maintain an up-to-date Github repo to track the latest development of foundatino
 ## Part 2: On-Device Inference framework
 
 * https://github.com/ggml-org/llama.cpp
+* https://github.com/ikawrakow/ik_llama.cpp ([ikawrakow](https://github.com/ikawrakow) did [an unique and important contribution](https://github.com/ggml-org/llama.cpp/pull/1684) in upstream llama.cpp and he is still focusing on quantization techniques in llama.cpp)
 * https://github.com/mlc-ai/mlc-llm
 * https://github.com/alibaba/MNN
 * https://github.com/Tencent/ncnn
