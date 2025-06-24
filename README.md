@@ -21,6 +21,7 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
   - [Part 4: Android APPs](#part-4-android-apps)
   - [Part 5: State-of-the-art on-device LLM models](#part-5-state-of-the-art-on-device-llm-models)
   - [Part 6: SoC References](#part-6-soc-references)
+  - [Part 7: Acknowledgement](#part-7-acknowledgement)
 
 
 ## Part 1: Research
@@ -147,3 +148,44 @@ others:
 * Rockchip: https://github.com/airockchip/rknn-toolkit2/
 * Huawei Hisilicon: TBD
 * Xiaomi Xuanjie: TBD
+
+## Part 7: Acknowledgement
+
+ <ul>AI inference framework
+
+   <ul>
+  <li>
+   <a href="https://github.com/ggml-org/ggml">GGML</a>
+   </li>
+
+
+  </ul>
+
+  </ul>
+
+ <ul>AI application engine
+
+  <ul>
+  <li>
+   ASR engine <a href="https://github.com/ggml-org/whisper.cpp">whisper.cpp</a>
+  </li>
+
+   <li>
+  LLM engine <a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a>
+  </li>
+
+  <li>
+   LLM engine <a href="https://github.com/ikawrakow/ik_llama.cpp">ik_llama.cpp</a>
+  </li>
+
+  <li>
+   CV engine <a href="https://github.com/nihui/opencv-mobile">opencv-mobile</a>
+  </li>
+
+  <li>
+   MTMD(multimodal) engine <a href="https://github.com/ggml-org/llama.cpp/blob/master/tools/mtmd/README.md">MTMD subsystem in llama.cpp</a>
+  </li>
+
+  </ul>
+
+  </ul>
