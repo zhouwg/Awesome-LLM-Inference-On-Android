@@ -7,9 +7,9 @@
 
 ##  Introduction
 
-Focus on LLM inference on Android phone/TV/STB, espcially Android phone equipped with Qualcomm Snapdragon high-end mobile SoC, such as Snapdragon 8Gen3, 8Elite, 8Elite2....
+Focus on LLM inference on Android phone/TV/STB, especially Android phone equipped with Qualcomm Snapdragon high-end mobile SoC, such as Snapdragon 8Gen3, 8Elite, 8Elite2....
 
-Maintain an up-to-date Github repo to track the latest development of foundatinonal technologies, benchmarks, future directions in this rapidly evolving field.
+Maintain an up-to-date Github repo to track the latest development of fundamental technologies, benchmarks, future directions in this rapidly evolving field.
 
 
 ##  Table of Contents
