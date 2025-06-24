@@ -44,12 +44,12 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
 
 ## Part 3: Hardware acceleration
 
-QNN solution, aka End-to-End solution, which is similar to the Qualcomm's official AI-Hub solution.
+QNN solution: aka End-to-End solution, which is similar to the Qualcomm's official AI-Hub solution.
 ![qualcomm-qnn-sdk](https://github.com/user-attachments/assets/35994005-a643-42be-950c-4eff9f57daba)
 
 Fig-1: cited from Qualcomm's QNN SDK Manual
 
-llama.cpp solution: a specified ggml backend for llama.cpp on Android, model preparation/conversion is not needed in this solution.
+llama.cpp solution: a specified ggml backend for llama.cpp on Android. Theoretically speaking, model preparation/conversion **is not needed** in this solution, which **is exactly similar to  ggml-cuda,ggml-metal,ggml-sycl**.
 
 ![432205301-bdeb056b-e247-4eb3-ad6d-020862f92c8f](https://github.com/user-attachments/assets/99ba7a8d-1078-4167-857d-da4898f99aa8)
 
