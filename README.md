@@ -19,7 +19,8 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
   - [Part 2: On-Device Inference framework](#part-2-on-device-inference-framework)
   - [Part 3: Hardware acceleration](#part-3-hardware-acceleration)
   - [Part 4: Android APPs](#part-4-android-apps)
-  - [Part 5: References](#part-5-references)
+  - [Part 5: State-of-the-art on-device LLM models](#part-5-state-of-the-art-on-device-llm-models)
+  - [Part 6: References](#part-6-references)
 
 
 ## Part 1: Research
@@ -59,7 +60,11 @@ llama.cpp solution: a specified ggml backend for llama.cpp on Android.
 * https://github.com/shubham0204/SmolChat-Android
 * https://github.com/kantv-ai/kantv
 
-## Part 5: References
+## Part 5: State-of-the-art on-device LLM models
+
+* gemma-3n-E4B-it-litert-preview: https://huggingface.co/google/gemma-3n-E4B-it-litert-preview
+
+## Part 6: References
 * Qualcomm: https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-50/introduction.html
 * MTK: https://neuropilot.mediatek.com/resources/public/npexpress/en/docs/npexpress
 * Rockchip: https://github.com/airockchip/rknn-toolkit2/
