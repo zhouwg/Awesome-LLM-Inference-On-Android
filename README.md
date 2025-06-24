@@ -46,7 +46,73 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
 QNN solution, aka End-to-End solution, which is similar to the Qualcomm's official AI-Hub solution.
 ![qualcomm-qnn-sdk](https://github.com/user-attachments/assets/35994005-a643-42be-950c-4eff9f57daba)
 
-llama.cpp solution: a specified ggml backend for llama.cpp on Android.
+Fig-1: cited from Qualcomm's QNN SDK Manual
+
+llama.cpp solution: a specified ggml backend for llama.cpp on Android, model preparation/conversion is not needed in this solution.
+
+![432205301-bdeb056b-e247-4eb3-ad6d-020862f92c8f](https://github.com/user-attachments/assets/99ba7a8d-1078-4167-857d-da4898f99aa8)
+
+Fig-2: cited from Qualcomm's Hexagon SDK Programmers_Reference_Manual
+
+libggml-hexagons.so(running on ARM CPU side):  ggml-hexagon.cpp + stub.c
+libggmlop_skel.so(running on DSP side): ggmldsp.c + skel.c + add.c + mulmat.c ( developers and AI experts can implement more AI ops on DSP side)
+
+```mermaid
+block-beta
+columns 1
+
+
+block:ggml_backend
+  ggml_backend["libggml-hexagon.so"]
+  style ggml_backend    fill:#3c3,color:#000,stroke:#000
+
+ block:ggmlbackends
+   ggml_cpu["ggml-hexagon.cpp"]
+   ggml_metal["stub.c"]
+   
+   style ggml_cpu       fill:#888,color:#000,stroke:#000
+   style ggml_metal     fill:#888,color:#000,stroke:#000
+
+  end
+end
+
+block:ggml_backendsubsystem
+  ggml_backendsubsystem["ARM CPU"]
+  style ggml_backendsubsystem fill:#3c3,color:#000,stroke:#000
+end
+
+
+block:ggml_backend1
+ggml_backend1["libggmlop-skel.so"]
+  style ggml_backend1    fill:#3c3,color:#000,stroke:#000
+
+block:ggmlbackends1
+ ggml_cpu1["ggml-dsp.c"]
+   ggml_metal1["skel.c"]
+   ggml_sycl1["add.c"]
+   ggml_cuda1["mulmat.c"]
+  ggml_ops["entry.c"]
+
+   style ggml_cpu1       fill:#888,color:#000,stroke:#000
+   style ggml_metal1     fill:#888,color:#000,stroke:#000
+   style ggml_sycl1      fill:#888,color:#000,stroke:#000
+   style ggml_cuda1      fill:#888,color:#000,stroke:#000
+ style ggml_ops      fill:#888,color:#000,stroke:#000
+ ggml_metal --> ggml_metal1
+  end
+end
+
+
+block:ggml_backendsubsystem1
+  ggml_backendsubsystem1["Hexagon NPU"]
+  style ggml_backendsubsystem1 fill:#3c3,color:#000,stroke:#000
+
+ggml_backendsubsystem --> ggml_backendsubsystem1
+ggml_backendsubsystem1 --> ggml_backendsubsystem
+end
+
+```
+Fig-3: self-made
 
 QNN solution:
   - https://github.com/SJTU-IPADS/PowerInfer
