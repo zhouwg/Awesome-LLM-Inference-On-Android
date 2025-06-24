@@ -7,7 +7,7 @@
 
 ##  Introduction
 
-Focus on LLM inference on Android phone, espcially Android phone equipped with Qualcomm Snapdragon high-end mobile SoC, such as Snapdragon 8Gen3, 8Elite, 8Elite2....
+Focus on LLM inference on Android phone/TV/STB, espcially Android phone equipped with Qualcomm Snapdragon high-end mobile SoC, such as Snapdragon 8Gen3, 8Elite, 8Elite2....
 
 Maintain an up-to-date Github repo to track the latest development of foundatinonal technologies, benchmarks, future directions in this rapidly evolving field.
 
@@ -63,3 +63,5 @@ llama.cpp solution: a specified ggml backend for llama.cpp on Android.
 * Qualcomm: https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-50/introduction.html
 * MTK: https://neuropilot.mediatek.com/resources/public/npexpress/en/docs/npexpress
 * Rockchip: https://github.com/airockchip/rknn-toolkit2/
+* Huawei Hisilicon: TBD
+* Xiaomi Xuanjie: TBD
