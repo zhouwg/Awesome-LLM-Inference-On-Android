@@ -55,7 +55,8 @@ llama.cpp solution: a specified ggml backend for llama.cpp on Android, model pre
 Fig-2: cited from Qualcomm's Hexagon SDK Programmers_Reference_Manual
 
 libggml-hexagons.so(running on ARM CPU side):  ggml-hexagon.cpp + stub.c
-libggmlop_skel.so(running on DSP side): ggmldsp.c + skel.c + add.c + mulmat.c ( developers and AI experts can implement more AI ops on DSP side)
+
+libggmlop_skel.so(running on DSP side): ggmldsp.c + skel.c + add.c + mulmat.c + ... ( developers and AI experts can operate hardware directly on DSP side)
 
 ```mermaid
 block-beta
@@ -91,7 +92,8 @@ block:ggmlbackends1
    ggml_metal1["skel.c"]
    ggml_sycl1["add.c"]
    ggml_cuda1["mulmat.c"]
-  ggml_ops["entry.c"]
+   ggml_ops["entry.c"]
+   ggml_ops["..."]
 
    style ggml_cpu1       fill:#888,color:#000,stroke:#000
    style ggml_metal1     fill:#888,color:#000,stroke:#000
