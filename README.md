@@ -51,6 +51,7 @@ llama.cpp solution: a specified ggml backend for llama.cpp on Android.
 * QNN solution: https://github.com/MollySophia/rwkv-qualcomm
 * llama.cpp solution: https://github.com/zhouwg/ggml-hexagon, the first original llama.cpp solution which launched on 03/2024
 * llama.cpp solution: https://github.com/chraac/llama.cpp (hard-forked from https://github.com/zhouwg/ggml-hexagon)
+* RKNN solution: https://github.com/airockchip/rknn-llm
 
 ## Part 4: Android APPs
 * https://github.com/a-ghorbani/pocketpal-ai
