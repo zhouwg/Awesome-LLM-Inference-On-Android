@@ -56,7 +56,7 @@ Fig-2: cited from Qualcomm's Hexagon SDK Programmers_Reference_Manual
 
 libggml-hexagons.so(running on ARM CPU side):  ggml-hexagon.cpp + stub.c
 
-libggmlop_skel.so(running on DSP side): ggmldsp.c + skel.c + add.c + mulmat.c + ... ( developers and AI experts can operate hardware directly on DSP side)
+libggmldsp_skel.so(running on DSP side): ggmldsp.c + skel.c + add.c + mulmat.c + ... ( developers and AI experts can operate hardware directly on DSP side)
 
 ```mermaid
 block-beta
