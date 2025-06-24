@@ -189,3 +189,10 @@ others:
   </ul>
 
   </ul>
+
+  <ul>Qualcomm
+  <ul>
+<li>a software engineer from Quic(Qualcomm Innovation Center)</li>
+<li>a staff tech expert from Qualcomm</li>
+  </ul>
+</ul>
