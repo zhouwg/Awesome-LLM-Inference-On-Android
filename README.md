@@ -44,6 +44,7 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
 ## Part 3: Hardware acceleration
 
 QNN solution, aka End-to-End solution, which is similar to the Qualcomm's official AI-Hub solution.
+![qualcomm-qnn-sdk](https://github.com/user-attachments/assets/35994005-a643-42be-950c-4eff9f57daba)
 
 llama.cpp solution: a specified ggml backend for llama.cpp on Android.
 
@@ -59,7 +60,7 @@ llama.cpp solution:
   - https://github.com/chraac/llama.cpp (hard-forked from zhouwg's initial version)
 
 others:
-  - RKNN solution: https://github.com/airockchip/rknn-llm
+  - https://github.com/airockchip/rknn-llm
 
 ## Part 4: Android APPs
 * https://github.com/a-ghorbani/pocketpal-ai
