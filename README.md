@@ -51,6 +51,8 @@ QNN solution:
   - https://github.com/SJTU-IPADS/PowerInfer
   - https://github.com/UbiquitousLearning/mllm
   - https://github.com/MollySophia/rwkv-qualcomm
+  - https://github.com/XiaoMi/StableDiffusionOnDevice
+  - https://github.com/powerserve-project/PowerServe
 
 llama.cpp solution:
   - https://github.com/zhouwg/ggml-hexagon, the first original llama.cpp solution which launched on 03/2024(the initial version was reverse engineered from [Qualcomm's codes in executorch](https://github.com/pytorch/executorch/tree/main/backends/qualcomm))
