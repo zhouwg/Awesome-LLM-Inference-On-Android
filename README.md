@@ -47,12 +47,17 @@ QNN solution, aka End-to-End solution, which is similar to the Qualcomm's offici
 
 llama.cpp solution: a specified ggml backend for llama.cpp on Android.
 
-* QNN solution: https://github.com/SJTU-IPADS/PowerInfer
-* QNN solution: https://github.com/UbiquitousLearning/mllm
-* QNN solution: https://github.com/MollySophia/rwkv-qualcomm
-* llama.cpp solution: https://github.com/zhouwg/ggml-hexagon, the first original llama.cpp solution which launched on 03/2024(the initial version was reverse engineered from [Qualcomm's codes in executorch](https://github.com/pytorch/executorch/tree/main/backends/qualcomm))
-* llama.cpp solution: https://github.com/chraac/llama.cpp (hard-forked from zhouwg's initial version)
-* RKNN solution: https://github.com/airockchip/rknn-llm
+QNN solution:
+  - https://github.com/SJTU-IPADS/PowerInfer
+  - https://github.com/UbiquitousLearning/mllm
+  - https://github.com/MollySophia/rwkv-qualcomm
+
+llama.cpp solution:
+  - https://github.com/zhouwg/ggml-hexagon, the first original llama.cpp solution which launched on 03/2024(the initial version was reverse engineered from [Qualcomm's codes in executorch](https://github.com/pytorch/executorch/tree/main/backends/qualcomm))
+  - https://github.com/chraac/llama.cpp (hard-forked from zhouwg's initial version)
+
+others:
+  - RKNN solution: https://github.com/airockchip/rknn-llm
 
 ## Part 4: Android APPs
 * https://github.com/a-ghorbani/pocketpal-ai
