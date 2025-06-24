@@ -62,3 +62,4 @@ llama.cpp solution: a specified ggml backend for llama.cpp on Android.
 ## Part 5: References
 * Qualcomm: https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-50/introduction.html
 * MTK: https://neuropilot.mediatek.com/resources/public/npexpress/en/docs/npexpress
+* Rockchip: https://github.com/airockchip/rknn-toolkit2/
