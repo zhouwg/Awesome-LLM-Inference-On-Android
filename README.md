@@ -63,6 +63,7 @@ llama.cpp solution: a specified ggml backend for llama.cpp on Android.
 ## Part 5: State-of-the-art on-device LLM models
 
 * gemma-3n-E4B-it-litert-preview: https://huggingface.co/google/gemma-3n-E4B-it-litert-preview
+* SmolVLM-500M-Instruct:https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct (verified on Snapdragon 8Gen3 and Snapdragon 8Elite)
 
 ## Part 6: SoC References
 * Qualcomm: https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-50/introduction.html
