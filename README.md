@@ -18,7 +18,7 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
   - [Part 1: Research](#part-1-research)
   - [Part 2: On-Device Inference framework](#part-2-on-device-inference-framework)
   - [Part 3: Hardware acceleration](#part-3-hardware-acceleration)
-  - [Part 4: Llama.cpp based Android APPs](#part-4-llama-cpp-based-android-apps)
+  - [Part 4: Llama.cpp based Android APPs](#part-4-llamacpp-based-android-apps)
   - [Part 5: State-of-the-art on-device LLM models](#part-5-state-of-the-art-on-device-llm-models)
   - [Part 6: SoC References](#part-6-soc-references)
   - [Part 7: Acknowledgement](#part-7-acknowledgement)
@@ -34,7 +34,6 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
 ## Part 2: On-Device Inference framework
 
 * https://github.com/ggml-org/llama.cpp
-* https://github.com/ikawrakow/ik_llama.cpp ([ikawrakow](https://github.com/ikawrakow) did [an unique and important contribution](https://github.com/ggml-org/llama.cpp/pull/1684) in upstream llama.cpp and he is still focusing on quantization techniques in llama.cpp)
 * https://github.com/mlc-ai/mlc-llm
 * https://github.com/alibaba/MNN
 * https://github.com/Tencent/ncnn
@@ -132,21 +131,23 @@ llama.cpp solution:
 others:
   - https://github.com/airockchip/rknn-llm
 
-## Part 4: Llama-cpp based Android APPs
+## Part 4: Llamacpp based Android APPs
+llama.cpp based Androd APPs
 * https://github.com/a-ghorbani/pocketpal-ai
 * https://github.com/Vali-98/ChatterUI
 * https://github.com/shubham0204/SmolChat-Android
-* https://github.com/kantv-ai/kantv (this is a learning project)
+* https://github.com/kantv-ai/kantv (this is a on-device AI learning project)
 
 ## Part 5: State-of-the-art on-device LLM models
 
-Google:
+Google gemma-3n:
 * gemma-3n-E4B-it-litert-preview: https://huggingface.co/google/gemma-3n-E4B-it-litert-preview
 * gemma-3n-E2B-it: https://huggingface.co/google/gemma-3n-E2B-it
 * gemma-3n-E4B-it: https://huggingface.co/google/gemma-3n-E4B-it
 * gemma-3n-E2B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E4B-it-GGUF/tree/main
 * gemma-3n-E4B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E2B-it-GGUF/tree/main
-HuggingFace:
+
+HuggingFace SmolVLM:
 * SmolVLM-500M-Instruct:https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct (verified on Snapdragon 8Gen3 and Snapdragon 8Elite)
 
 ## Part 6: SoC References
@@ -155,6 +156,7 @@ HuggingFace:
 * Rockchip: https://github.com/airockchip/rknn-toolkit2/
 * Huawei Hisilicon: TBD
 * Xiaomi Xuanjie: TBD
+* Google TPU: TBD
 
 ## Part 7: Acknowledgement
 
