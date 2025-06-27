@@ -136,7 +136,7 @@ llama.cpp based Androd APPs
 * https://github.com/a-ghorbani/pocketpal-ai
 * https://github.com/Vali-98/ChatterUI
 * https://github.com/shubham0204/SmolChat-Android
-* https://github.com/kantv-ai/kantv (this is a on-device AI learning project)
+* https://github.com/kantv-ai/kantv (this is an on-device AI learning project, focus on Android OS)
 
 ## Part 5: State-of-the-art on-device LLM models
 
