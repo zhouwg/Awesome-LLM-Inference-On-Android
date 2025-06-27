@@ -144,7 +144,7 @@ Google gemma-3n:
 * gemma-3n-E4B-it-litert-preview: https://huggingface.co/google/gemma-3n-E4B-it-litert-preview
 * gemma-3n-E2B-it: https://huggingface.co/google/gemma-3n-E2B-it
 * gemma-3n-E4B-it: https://huggingface.co/google/gemma-3n-E4B-it
-* gemma-3n-E2B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E2B-it-GGUF/tree/main (verified on Snapdragon 8Elite)
+* gemma-3n-E2B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E2B-it-GGUF/tree/main (verified on Snapdragon 8Elite and 8Gen3, speed in 8Elite is good, speed in 8Gen3 is not good)
 * gemma-3n-E4B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E4B-it-GGUF/tree/main
 
 HuggingFace SmolVLM:
