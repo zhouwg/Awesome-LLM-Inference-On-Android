@@ -144,11 +144,12 @@ Google gemma-3n:
 * gemma-3n-E4B-it-litert-preview: https://huggingface.co/google/gemma-3n-E4B-it-litert-preview
 * gemma-3n-E2B-it: https://huggingface.co/google/gemma-3n-E2B-it
 * gemma-3n-E4B-it: https://huggingface.co/google/gemma-3n-E4B-it
-* gemma-3n-E2B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E4B-it-GGUF/tree/main
-* gemma-3n-E4B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E2B-it-GGUF/tree/main
+* gemma-3n-E2B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E2B-it-GGUF/tree/main (verified on Snapdragon 8Elite)
+* gemma-3n-E4B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E4B-it-GGUF/tree/main
 
 HuggingFace SmolVLM:
-* SmolVLM-500M-Instruct:https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct (verified on Snapdragon 8Gen3 and Snapdragon 8Elite)
+* SmolVLM-500M-Instruct:https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct
+* SmolVLM-500M-Instruct GGUF mode: https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF/tree/main (verified on Snapdragon 8Gen3 and Snapdragon 8Elite)
 
 ## Part 6: SoC References
 * Qualcomm: https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-50/introduction.html
