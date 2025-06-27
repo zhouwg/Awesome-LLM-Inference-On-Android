@@ -41,6 +41,8 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
 * https://github.com/OpenPPL/ppl.nn
 * https://github.com/pytorch/executorch
 * https://github.com/google-ai-edge/LiteRT
+* https://github.com/microsoft/onnxruntime
+* https://github.com/Samsung/ONE
 
 ## Part 3: Hardware acceleration
 
