@@ -29,6 +29,7 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
 * LLM prefilling with mllm-NPU [[Paper]](https://arxiv.org/abs/2407.05858v1) ![](https://img.shields.io/badge/arXiv-2024.07-red) , https://github.com/UbiquitousLearning/mllm
 * PowerInfer-2: Fast Large Language Model Inference on a Smartphone  [[Paper]](https://arxiv.org/abs/2406.06282) ![](https://img.shields.io/badge/arXiv-2024.06-red) , https://github.com/SJTU-IPADS/PowerInfer
 * T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge  [[Paper]](https://arxiv.org/abs/2407.00088v1) ![](https://img.shields.io/badge/arXiv-2024.06-red) , https://github.com/microsoft/T-MAC
+* MobileNetV4 -- Universal Models for the Mobile Ecosystem  [[Paper]](https://arxiv.org/abs/2404.10518) ![](https://img.shields.io/badge/arXiv-2024.04-red)
 
 ## Part 2: On-Device Inference framework
 
