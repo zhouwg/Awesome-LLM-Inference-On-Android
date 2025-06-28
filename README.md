@@ -138,7 +138,7 @@ llama.cpp based Androd APPs
 * https://github.com/a-ghorbani/pocketpal-ai
 * https://github.com/Vali-98/ChatterUI
 * https://github.com/shubham0204/SmolChat-Android
-* https://github.com/kantv-ai/kantv (this is an on-device AI learning project, focus on Android OS)
+* https://github.com/kantv-ai/kantv (this is an on-device AI learning&hobby project, focus on Android OS)
 
 ## Part 5: State-of-the-art on-device LLM models
 
@@ -150,8 +150,10 @@ Google gemma-3n:
 * gemma-3n-E4B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E4B-it-GGUF/tree/main
 
 HuggingFace SmolVLM:
-* SmolVLM-500M-Instruct:https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct
+* SmolVLM-500M-Instruct:https://huggingface.co/HuggingFaceTB/SmolVLM-500M-
+* SmolVLM-256M-Instruct:https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct
 * SmolVLM-500M-Instruct GGUF model: https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF/tree/main (verified on Snapdragon 8Gen3 and Snapdragon 8Elite)
+* SmolVLM-256M-Instruct GGUF model: https://huggingface.co/ggml-org/SmolVLM2-256M-Video-Instruct-GGUF/tree/main(verified on Snapdragon 8Gen3 and Snapdragon 8Elite)
 
 ## Part 6: SoC References
 * Qualcomm: https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-50/introduction.html
@@ -186,10 +188,7 @@ HuggingFace SmolVLM:
   LLM engine <a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a>
   </li>
 
-  <li>
-   LLM engine <a href="https://github.com/ikawrakow/ik_llama.cpp">ik_llama.cpp</a>
-  </li>
-
+ 
   <li>
    CV engine <a href="https://github.com/nihui/opencv-mobile">opencv-mobile</a>
   </li>
