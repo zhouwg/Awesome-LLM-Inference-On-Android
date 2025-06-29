@@ -42,7 +42,8 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
 * https://github.com/pytorch/executorch
 * https://github.com/google-ai-edge/LiteRT
 * https://github.com/microsoft/onnxruntime
-* https://github.com/Samsung/ONE
+* https://github.com/Samsung/
+* https://github.com/mindspore-ai/mindspore 
 
 ## Part 3: Hardware acceleration
 
