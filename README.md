@@ -7,7 +7,7 @@
 
 ##  Introduction
 
-Focus on LLM inference on Android Phone/Pad/TV/STB/PC/Phone/Pad/TV/STB/PC/Intelligent Cockpit Domain in Intelligent Electric Vehicle, especially llama.cpp + Android phone equipped with Qualcomm Snapdragon high-end mobile SoC, such as Snapdragon 8Gen3, 8Elite, 8Elite2(might-be released on 09/2025 or 10/2025)....
+Focus on LLM inference on Android Phone/Pad/TV/STB/PC/Phone/Pad/TV/STB/PC/Intelligent Cockpit Domain in Intelligent Electric Vehicle, especially ***llama.cpp + Android phone*** equipped with Qualcomm Snapdragon high-end mobile SoC, such as Snapdragon 8Gen3, 8Elite, 8Elite2(might-be released on 09/2025 or 10/2025)....
 
 Maintain an up-to-date Github repo to track the latest development of fundamental technologies, state-of-the-art on-device LLM models, Android APPs, future directions in this rapidly evolving field.
 
@@ -72,7 +72,16 @@ All content here is personal perspective from a full stack Android programmer an
 
 ## Part 3: Hardware acceleration
 
-### QNN solution
+### OpenCL
+
+ggml-opencl: https://github.com/ggml-org/llama.cpp/tree/master/ggml/src/ggml-opencl
+
+### Vulkan
+ggml-vulkan: https://github.com/ggml-org/llama.cpp/tree/master/ggml/src/ggml-vulkan
+
+### Qualcomm Hexagon NPU
+
+#### QNN solution
 aka End-to-End solution, which is similar to the Qualcomm's official AI-Hub solution.
 
 ![qualcomm-qnn-sdk](https://github.com/user-attachments/assets/35994005-a643-42be-950c-4eff9f57daba)
@@ -86,7 +95,7 @@ QNN solution based fully/semi open source projects:
   - https://github.com/XiaoMi/StableDiffusionOnDevice
   - https://github.com/powerserve-project/PowerServe
 
-### llama.cpp solution
+#### llama.cpp solution
 
 a specified ggml backend for llama.cpp on Android. Theoretically speaking, model preparation/conversion **is not needed** in this solution, which **is exactly similar to  ggml-cuda,ggml-metal,ggml-sycl,ggml-vulkan**.
 
