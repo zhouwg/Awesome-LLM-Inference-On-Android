@@ -45,6 +45,7 @@ All content here is personal perspective from a full stack Android programmer an
 * FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness [[Paper]](https://arxiv.org/abs/2205.14135) ![](https://img.shields.io/badge/arXiv-2022.05-red)
 * Training language models to follow instructions with human feedback  [[Paper]](https://arxiv.org/abs/2203.02155) ![](https://img.shields.io/badge/arXiv-2022.03-red
 * Chain-of-Thought Prompting Elicits Reasoning in Large Language Models  [[Paper]](https://arxiv.org/abs/2201.11903) ![](https://img.shields.io/badge/arXiv-2022.01-red)
+* An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale  [[Paper]](https://arxiv.org/abs/2010.11929) ![](https://img.shields.io/badge/arXiv-2020.10-red)
 * Deep Reinforcement Learning from Human Preferences  [[Paper]](https://arxiv.org/abs/1706.03762) ![](https://img.shields.io/badge/arXiv-2017.06-red)
 * Distilling the Knowledge in a Neural Network  [[Paper]](https://arxiv.org/abs/1503.02531) ![](https://img.shields.io/badge/arXiv-2015.03-red)
 
@@ -87,7 +88,7 @@ QNN solution based fully/semi open source projects:
 
 ### llama.cpp solution
 
-a specified ggml backend for llama.cpp on Android. Theoretically speaking, model preparation/conversion **is not needed** in this solution, which **is exactly similar to  ggml-cuda,ggml-metal,ggml-sycl**.
+a specified ggml backend for llama.cpp on Android. Theoretically speaking, model preparation/conversion **is not needed** in this solution, which **is exactly similar to  ggml-cuda,ggml-metal,ggml-sycl,ggml-vulkan**.
 
 ![432205301-bdeb056b-e247-4eb3-ad6d-020862f92c8f](https://github.com/user-attachments/assets/99ba7a8d-1078-4167-857d-da4898f99aa8)
 
