@@ -7,29 +7,53 @@
 
 ##  Introduction
 
-Focus on LLM inference on Android phone/TV/STB, especially Android phone equipped with Qualcomm Snapdragon high-end mobile SoC, such as Snapdragon 8Gen3, 8Elite, 8Elite2....
+Focus on LLM inference on Android Phone/Pad/TV/STB/PC, especially Android phone equipped with Qualcomm Snapdragon high-end mobile SoC, such as Snapdragon 8Gen3, 8Elite, 8Elite2(might-be released on 09/2025 or 10/2025)....
 
 Maintain an up-to-date Github repo to track the latest development of fundamental technologies, state-of-the-art on-device LLM models, Android APPs, future directions in this rapidly evolving field.
+
+All content here is personal perspective from a full stack Android programmer and a highly-skilled FFmpeg programmer whom don't know hard-core AI tech(so the point of views might be different from professional AI researchers/experts/scientists).
 
 
 ##  Table of Contents
 
 - [Awesome-LLM-Inference-On-Android](#awesome-llm-inference-on-android)
-  - [Part 1: Research](#part-1-research)
+  - [Part 1: Research Papers](#part-1-research-papers)
   - [Part 2: On-Device Inference framework](#part-2-on-device-inference-framework)
   - [Part 3: Hardware acceleration](#part-3-hardware-acceleration)
-  - [Part 4: Llama.cpp based Android APPs](#part-4-llamacpp-based-android-apps)
+  - [Part 4: LLama.cpp based Android APPs](#part-4-llamacpp-based-android-apps)
   - [Part 5: State-of-the-art on-device LLM models](#part-5-state-of-the-art-on-device-llm-models)
-  - [Part 6: SoC References](#part-6-soc-references)
+  - [Part 6: Mobile SoC References](#part-6-mobile-soc-references)
   - [Part 7: Acknowledgement](#part-7-acknowledgement)
 
 
-## Part 1: Research
-* HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs platform with Heterogeneous AI Accelerators  [[Paper]](https://arxiv.org/abs/2501.14794) ![](https://img.shields.io/badge/arXiv-2025.01-red)
-* LLM prefilling with mllm-NPU [[Paper]](https://arxiv.org/abs/2407.05858v1) ![](https://img.shields.io/badge/arXiv-2024.07-red) , https://github.com/UbiquitousLearning/mllm
-* PowerInfer-2: Fast Large Language Model Inference on a Smartphone  [[Paper]](https://arxiv.org/abs/2406.06282) ![](https://img.shields.io/badge/arXiv-2024.06-red) , https://github.com/SJTU-IPADS/PowerInfer
-* T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge  [[Paper]](https://arxiv.org/abs/2407.00088v1) ![](https://img.shields.io/badge/arXiv-2024.06-red) , https://github.com/microsoft/T-MAC
-* MobileNetV4 -- Universal Models for the Mobile Ecosystem  [[Paper]](https://arxiv.org/abs/2404.10518) ![](https://img.shields.io/badge/arXiv-2024.04-red)
+## Part 1: Research Papers
+### on-device inference
+* HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs platform with Heterogeneous AI Accelerators  [[Paper]](https://arxiv.org/abs/2501.14794) ![](https://img.shields.io/badge/arXiv-2025.01-green)
+* LLM prefilling with mllm-NPU [[Paper]](https://arxiv.org/abs/2407.05858v1) ![](https://img.shields.io/badge/arXiv-2024.07-green) , https://github.com/UbiquitousLearning/mllm
+* PowerInfer-2: Fast Large Language Model Inference on a Smartphone  [[Paper]](https://arxiv.org/abs/2406.06282) ![](https://img.shields.io/badge/arXiv-2024.06-green) , https://github.com/SJTU-IPADS/PowerInfer
+* T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge  [[Paper]](https://arxiv.org/abs/2407.00088v1) ![](https://img.shields.io/badge/arXiv-2024.06-green) , https://github.com/microsoft/T-MAC
+* MobileNetV4 -- Universal Models for the Mobile Ecosystem  [[Paper]](https://arxiv.org/abs/2404.10518) ![](https://img.shields.io/badge/arXiv-2024.04-green)
+* TinyLlama: An Open-Source Small Language Model  [[Paper]](https://arxiv.org/abs/2401.02385) ![](https://img.shields.io/badge/arXiv-2024.01-green)
+
+### core technologies
+* DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning  [[Paper]](https://arxiv.org/abs/2501.12948) ![](https://img.shields.io/badge/arXiv-2025.01-red)
+* Efficient Memory Management for Large Language Model Serving with PagedAttention [[Paper]](https://arxiv.org/abs/2309.06180) ![](https://img.shields.io/badge/arXiv-2023.12-red)
+* Mamba: Linear-Time Sequence Modeling with Selective State Spaces [[Paper]](https://arxiv.org/abs/2312.00752) ![](https://img.shields.io/badge/arXiv-2023.12-red)
+* QLoRA: Efficient Finetuning of Quantized LLMs [[Paper]](https://arxiv.org/abs/2305.14314) ![](https://img.shields.io/badge/arXiv-2023.05-red)
+* GPT-4 Technical Report [[Paper]](https://arxiv.org/abs/2303.08774) ![](https://img.shields.io/badge/arXiv-2023.03-red)
+* LLaMA: Open and Efficient Foundation Language Models [[Paper]](https://arxiv.org/abs/2302.13971) ![](https://img.shields.io/badge/arXiv-2023.02-red)
+* FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness [[Paper]](https://arxiv.org/abs/2205.14135) ![](https://img.shields.io/badge/arXiv-2022.05-red)
+* Training language models to follow instructions with human feedback  [[Paper]](https://arxiv.org/abs/2203.02155) ![](https://img.shields.io/badge/arXiv-2022.03-red
+* Chain-of-Thought Prompting Elicits Reasoning in Large Language Models  [[Paper]](https://arxiv.org/abs/2201.11903) ![](https://img.shields.io/badge/arXiv-2022.01-red)
+* Deep Reinforcement Learning from Human Preferences  [[Paper]](https://arxiv.org/abs/1706.03762) ![](https://img.shields.io/badge/arXiv-2017.06-red)
+* Distilling the Knowledge in a Neural Network  [[Paper]](https://arxiv.org/abs/1503.02531) ![](https://img.shields.io/badge/arXiv-2015.03-red)
+
+### fundamental technologies
+* Attention Is All You Need  [[Paper]](https://arxiv.org/abs/1706.03741) ![](https://img.shields.io/badge/arXiv-2017.06-red)
+* Deep Residual Learning for Image Recognition  [[Paper]](https://arxiv.org/abs/1512.03385) ![](https://img.shields.io/badge/arXiv-2015.12-red)
+* Sequence to Sequence Learning with Neural Networks  [[Paper]](https://arxiv.org/abs/1409.3215) ![](https://img.shields.io/badge/arXiv-2014.09-red)
+* Efficient Estimation of Word Representations in Vector Space  [[Paper]](https://arxiv.org/abs/1301.3781) ![](https://img.shields.io/badge/arXiv-2013.01-red)
+* ImageNet Classification with Deep Convolutional Neural Networks  [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) ![](https://img.shields.io/badge/arXiv-2012-red)
 
 ## Part 2: On-Device Inference framework
 
@@ -42,17 +66,28 @@ Maintain an up-to-date Github repo to track the latest development of fundamenta
 * https://github.com/pytorch/executorch
 * https://github.com/google-ai-edge/LiteRT
 * https://github.com/microsoft/onnxruntime
-* https://github.com/Samsung/
+* https://github.com/Samsung/ONE
 * https://github.com/mindspore-ai/mindspore 
 
 ## Part 3: Hardware acceleration
 
-QNN solution: aka End-to-End solution, which is similar to the Qualcomm's official AI-Hub solution.
+### QNN solution
+aka End-to-End solution, which is similar to the Qualcomm's official AI-Hub solution.
+
 ![qualcomm-qnn-sdk](https://github.com/user-attachments/assets/35994005-a643-42be-950c-4eff9f57daba)
 
 Fig-1: cited from Qualcomm's QNN SDK Manual
 
-llama.cpp solution: a specified ggml backend for llama.cpp on Android. Theoretically speaking, model preparation/conversion **is not needed** in this solution, which **is exactly similar to  ggml-cuda,ggml-metal,ggml-sycl**.
+QNN solution based fully/semi open source projects:
+  - https://github.com/SJTU-IPADS/PowerInfer
+  - https://github.com/UbiquitousLearning/mllm
+  - https://github.com/MollySophia/rwkv-qualcomm
+  - https://github.com/XiaoMi/StableDiffusionOnDevice
+  - https://github.com/powerserve-project/PowerServe
+
+### llama.cpp solution
+
+a specified ggml backend for llama.cpp on Android. Theoretically speaking, model preparation/conversion **is not needed** in this solution, which **is exactly similar to  ggml-cuda,ggml-metal,ggml-sycl**.
 
 ![432205301-bdeb056b-e247-4eb3-ad6d-020862f92c8f](https://github.com/user-attachments/assets/99ba7a8d-1078-4167-857d-da4898f99aa8)
 
@@ -120,21 +155,13 @@ end
 ```
 Fig-3: self-made
 
-QNN solution:
-  - https://github.com/SJTU-IPADS/PowerInfer
-  - https://github.com/UbiquitousLearning/mllm
-  - https://github.com/MollySophia/rwkv-qualcomm
-  - https://github.com/XiaoMi/StableDiffusionOnDevice
-  - https://github.com/powerserve-project/PowerServe
 
-llama.cpp solution:
-  - https://github.com/zhouwg/ggml-hexagon, the first original llama.cpp solution which launched on 03/2024(the initial version was reverse engineered from [Qualcomm's codes in executorch](https://github.com/pytorch/executorch/tree/main/backends/qualcomm))
+
+llama.cpp solution based open source projects:
+  - https://github.com/zhouwg/ggml-hexagon, the first original llama.cpp solution which launched on 03/2024(the initial version was reverse engineered from [Qualcomm's codes in executorch](https://github.com/pytorch/executorch/tree/main/backends/qualcomm)), this llama.cpp-based solution is a simple, concise, easy-to-extend, easy-to-troubleshoot, easty-to-maintain solution.
   - https://github.com/chraac/llama.cpp (hard-forked from zhouwg's initial version)
 
-others:
-  - https://github.com/airockchip/rknn-llm
-
-## Part 4: Llamacpp based Android APPs
+## Part 4: LLamacpp based Android APPs
 llama.cpp based Androd APPs
 * https://github.com/a-ghorbani/pocketpal-ai
 * https://github.com/Vali-98/ChatterUI
@@ -151,18 +178,17 @@ Google gemma-3n:
 * gemma-3n-E4B-it GGUF model: https://huggingface.co/ggml-org/gemma-3n-E4B-it-GGUF/tree/main
 
 HuggingFace SmolVLM:
-* SmolVLM-500M-Instruct:https://huggingface.co/HuggingFaceTB/SmolVLM-500M-
 * SmolVLM-256M-Instruct:https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct
-* SmolVLM-500M-Instruct GGUF model: https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF/tree/main (verified on Snapdragon 8Gen3 and Snapdragon 8Elite)
-* SmolVLM-256M-Instruct GGUF model: https://huggingface.co/ggml-org/SmolVLM2-256M-Video-Instruct-GGUF/tree/main(verified on Snapdragon 8Gen3 and Snapdragon 8Elite)
+* SmolVLM-256M-Instruct GGUF model: https://huggingface.co/ggml-org/SmolVLM2-256M-Video-Instruct-GGUF/tree/main (verified on Snapdragon 8Gen3 and Snapdragon 8Elite, unbelieveable experience on Android phone)
 
-## Part 6: SoC References
+## Part 6: Mobile SoC References
 * Qualcomm: https://docs.qualcomm.com/bundle/publicresource/topics/80-63442-50/introduction.html
 * MTK: https://neuropilot.mediatek.com/resources/public/npexpress/en/docs/npexpress
-* Rockchip: https://github.com/airockchip/rknn-toolkit2/
-* Huawei Hisilicon: TBD
-* Xiaomi Xuanjie: TBD
-* Google TPU: TBD
+* [Samsung Exynos](https://en.wikipedia.org/wiki/Exynos): TBD
+* [Huawei Hisilicon](https://en.wikipedia.org/wiki/HiSilicon): TBD
+* [UniSoC](https://en.wikipedia.org/wiki/UNISOC): TBD
+* [Xiaomi Xuanjie](https://en.wikipedia.org/wiki/Xiaomi): TBD
+* [Google Tensor](https://en.wikipedia.org/wiki/Google_Tensor): TBD
 
 ## Part 7: Acknowledgement
 
@@ -170,7 +196,7 @@ HuggingFace SmolVLM:
 
    <ul>
   <li>
-   <a href="https://github.com/ggml-org/ggml">GGML</a>
+   <a href="https://github.com/ggml-org/ggml">GGML</a>(as a full-stack Android programmer and a highly-skilled FFmpeg programmer whom believe the philosophy of <b>"simple is beautiful"</b> which comes from the great Unix, I personally/always think it's another FFmpeg since 03/2024 and I like it very much although there are many AI inference frameworks from big IT tech giants)
    </li>
 
 
@@ -202,9 +228,9 @@ HuggingFace SmolVLM:
 
   </ul>
 
-  <ul>Qualcomm
+  <ul>References
   <ul>
-<li>a software engineer from Quic(Qualcomm Innovation Center)</li>
-<li>a staff tech expert from Qualcomm</li>
+    <li>https://mp.weixin.qq.com/s/1lUSlc0tvEWLuOFOP0WkUA (zh)</li>
+    <li>https://github.com/ngxson/smolvlm-realtime-webcam</li>
   </ul>
 </ul>
