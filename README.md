@@ -7,7 +7,7 @@
 
 ##  Introduction
 
-Focus on LLM inference on Android Phone/Pad/TV/STB/PC/Phone/Pad/TV/STB/PC/Intelligent Cockpit Domain in Intelligent Electric Vehicle, especially Android phone equipped with Qualcomm Snapdragon high-end mobile SoC, such as Snapdragon 8Gen3, 8Elite, 8Elite2(might-be released on 09/2025 or 10/2025)....
+Focus on LLM inference on Android Phone/Pad/TV/STB/PC/Phone/Pad/TV/STB/PC/Intelligent Cockpit Domain in Intelligent Electric Vehicle, especially llama.cpp + Android phone equipped with Qualcomm Snapdragon high-end mobile SoC, such as Snapdragon 8Gen3, 8Elite, 8Elite2(might-be released on 09/2025 or 10/2025)....
 
 Maintain an up-to-date Github repo to track the latest development of fundamental technologies, state-of-the-art on-device LLM models, Android APPs, future directions in this rapidly evolving field.
 
