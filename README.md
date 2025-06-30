@@ -81,7 +81,7 @@ ggml-vulkan: https://github.com/ggml-org/llama.cpp/tree/master/ggml/src/ggml-vul
 
 ### Qualcomm Hexagon NPU
 
-#### QNN solution
+##### QNN solution
 aka End-to-End solution, which is similar to the Qualcomm's official AI-Hub solution.
 
 ![qualcomm-qnn-sdk](https://github.com/user-attachments/assets/35994005-a643-42be-950c-4eff9f57daba)
@@ -95,7 +95,7 @@ QNN solution based fully/semi open source projects:
   - https://github.com/XiaoMi/StableDiffusionOnDevice
   - https://github.com/powerserve-project/PowerServe
 
-#### llama.cpp solution
+##### llama.cpp solution
 
 a specified ggml backend for llama.cpp on Android. Theoretically speaking, model preparation/conversion **is not needed** in this solution, which **is exactly similar to  ggml-cuda,ggml-metal,ggml-sycl,ggml-vulkan,ggml-opencl**.
 
